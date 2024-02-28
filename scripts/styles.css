@@ -30,6 +30,7 @@ body{
   align-items: center;
   justify-content: space-between;
   width: 65%;
+  /* text-shadow: none; */
 }
 .count{
   border-radius: 6px;

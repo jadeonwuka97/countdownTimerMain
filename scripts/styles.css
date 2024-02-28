@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  margin: 100px;
+  /* background-color: rgb(232, 232, 232); */
+}
+.container__1{
+  /* background-color: cadetblue; */
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+.bg__img{
+  position: fixed;
+}
+.iphone__img{
+  z-index: 10;
+  width: 525px;
+}
+.container{
+  /* background-color: green; */
+  text-align: left;
+  margin-left: 15px;
+}
+.countdown{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+.count{
+  border-radius: 6px;
+background: linear-gradient(145deg, #e68e8e, #ffa9a9);
+box-shadow:  7px 7px 15px #c97d7d,
+             -7px -7px 15px #ffbfbf;
+  width: 70px;
+  height: 70px;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
